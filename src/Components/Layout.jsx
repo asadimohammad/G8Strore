@@ -19,8 +19,8 @@ const Layout = () => {
   return (
     <>
       <Header setShowCart={setShowCart} />
+      <h2>HHHHH</h2>
       {/* {showCart ? <Cart cartArray={cartArray}/> : <Shop setCartArray={addProduct} />} */}
-      <Routers/>
     </>
   );
 };
